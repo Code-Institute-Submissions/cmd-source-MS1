@@ -7,8 +7,8 @@
 /*-------------------------Header*/
 
 img{
-    height: 140px;
-    width: 140px;
+    height: 80px;
+    width: 80px;
     border-radius: 20px;
 }
 
@@ -31,9 +31,8 @@ header{
 }
 
 #menu-header li{
-    margin-right: 15px;
     list-style-type: none;
-    margin-top: 15px;
+
 }
 
 #menu li a {
@@ -42,6 +41,15 @@ header{
     text-decoration: none;
     float: right;
     color: #fff;
+}
+
+#menu {
+    margin: 35px 15px 25px 15px;
+}
+
+#menu a:hover{
+    color: black;
+    transition: .25s;
 }
 
 
@@ -54,3 +62,4 @@ header{
     background: auto;
     background-color: rgb(55, 55, 66);
 }
+
