@@ -22,15 +22,15 @@ header{
 
 #logo{
     float: left;
+    margin-bottom: 23px;
     margin-left: 10px;
-    margin-bottom: 10px;
 }
 
 #menu-header{
     display: inline;
 }
 
-#menu-header li{
+#menu li{
     list-style-type: none;
 
 }
@@ -45,6 +45,7 @@ header{
 
 #menu {
     margin: 35px 15px 25px 15px;
+    padding-top: 15px;
 }
 
 #menu a:hover{
@@ -57,9 +58,37 @@ header{
 
 #section-body{
     width: 100%;
-    height: 600px;
+    height: 800px;
     background: url("https://media.istockphoto.com/photos/zilhouette-exerccise-studio-picture-id849413034");
     background: auto;
     background-color: rgb(55, 55, 66);
 }
 
+.callout{
+    color: #fff;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+
+/*-------------------------Map---*/
+
+.maps{
+    border: 2px solid black;
+
+}
+
+/*------------------------Opening Times*/
+
+#opening-times th, td{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+#opening-times{
+    padding: 25px 25px;
+}
+
+table{
+    margin: 0 auto;
+}
