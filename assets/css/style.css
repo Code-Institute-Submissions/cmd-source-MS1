@@ -4,7 +4,7 @@
     border:0;
 }
 
-/*-------------------------Header*/
+/*-------------------------Header/NAV */
 
 img{
     height: 80px;
@@ -12,83 +12,101 @@ img{
     border-radius: 20px;
 }
 
-header{
-   width: 100%;
-   background-color: rgb(55, 55, 66);
-   clear: both;
-   content: '';
-   display: table;
-}
-
-#logo{
-    float: left;
-    margin-bottom: 23px;
-    margin-left: 10px;
-}
-
-#menu-header{
-    display: inline;
-}
-
-#menu li{
-    list-style-type: none;
-
-}
-
-#menu li a {
-    margin-right: 50px;
-    font-size: 150%;
-    text-decoration: none;
-    float: right;
-    color: #fff;
-}
-
-#menu {
-    margin: 35px 15px 25px 15px;
-    padding-top: 15px;
-}
-
-#menu a:hover{
-    color: black;
-    transition: .25s;
-}
-
-
-/*--------------------------Body---*/
-
-#section-body{
+#navid{
+    display: flex;
+    justify-content: space-between;
+    font-size: 110%;
+    position: fixed;
     width: 100%;
+    top: 0;
+}
+
+#navid li{
+    padding: 0 5px;
+}
+
+@media all and (max-width: 700px){
+    #navid {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #nav-ul{
+        display: inline-block;
+    }
+    #nav-ul li{
+        display: inline-block;
+    }
+}
+
+/*-------------------------Body*/
+
+body{
+    background-image: url(../img/gymbackground.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 800px;
-    background: url("https://media.istockphoto.com/photos/zilhouette-exerccise-studio-picture-id849413034");
-    background: auto;
-    background-color: rgb(55, 55, 66);
+    width: 100%;
 }
 
 .callout{
+    text-align: center;
+    margin-top: 180px;
+    padding: 50px 25px 50px 25px;
+    border: 1px solid #212529;
     color: #fff;
-    font-size: 30px;
-    margin: 0 auto;
+    border-radius: 20px;
+    background-color:rgb(128, 117, 117, .75);
+}
+
+#join-button{
+    padding: 10px;
+    font-size: 110%;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid rgb(31, 30, 30);
+}
+
+#join-button:hover{
+    background-color: rgb(44, 39, 39);
+    color: #fff;
+    transition: .25s;
+}
+
+#map{
+    margin-top: 250px;
 }
 
 
-/*-------------------------Map---*/
+/*-------------------------Footer*/
 
-.maps{
-    border: 2px solid black;
-
+.footer-container{
+    width: 100%;
+    height: 100px;
+    background-color: #212529;
+    bottom: 0px;
 }
 
-/*------------------------Opening Times*/
-
-#opening-times th, td{
-    padding-left: 10px;
-    padding-top: 15px;
+.footer-container ul{
+    color: white;
 }
 
-#opening-times{
-    padding: 25px 25px;
+.social ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 140%;
 }
 
-table{
-    margin: 0 auto;
+.social{
+    list-style: none;
+    padding: 20px 10px;
+    margin-right: 40px ;
+    float: right;
 }
+
