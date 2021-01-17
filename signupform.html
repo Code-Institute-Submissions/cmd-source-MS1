@@ -31,23 +31,61 @@
 
     <section class="form">
         <div class="form-bg">
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            <div class="container">
+                <div class="row">
+                    <form>
+                        <h3>Welcome to your new gym!</h3>
+                        <div class="form-id col-sm-6">
+                            <input type="text" name="fname" placeholder="First Name" required>
+                            <input type="text" name="lname" placeholder="Last Name" required>
+                        </div>
 
+                        <div class="form-id">
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input type="number" name="number" placeholder="Mobile" required>
+                        </div>
+
+
+                        <div class="form-id col-sm-6">
+                            <input type="password" name="password" placeholder="Password" required>
+                            <input type="password" name="Confirm-Password" placeholder="Confirm Password" required>
+                        </div>
+
+                        <hr>
+
+                        <h5>Billing Information</h5>
+                        <div class="form-id col-sm-6">
+                            <input type="text" name="fname" placeholder="First Name" required>
+                            <input type="text" name="lname" placeholder="Last Name" required>
+
+                            <br>
+                            <br>
+
+                            <input type="radio" name="payment"><label>Credit Card</label>
+
+                            <br>
+
+                            <input type="radio" name="payment"><label>Debit Card</label>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-id col-sm-12">
+                                <input type="text" name="cardnumber" placeholder="Card Number" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-id col-sm-6">
+                                <input type="text" name="expire" placeholder="Expiration Date" required>
+                            </div>
+
+                            <div class="form-id col-sm-6">
+                                <input type="text" name="ccv" placeholder="CCV" required>
+                            </div>
+        
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
