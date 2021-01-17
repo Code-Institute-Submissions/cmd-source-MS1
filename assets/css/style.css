@@ -60,7 +60,7 @@ body{
     border: 1px solid #212529;
     color: #fff;
     border-radius: 20px;
-    background-color:rgb(128, 117, 117, .75);
+    background-color: rgb(190, 168, 168, .75);
 }
 
 #join-button{
@@ -78,7 +78,7 @@ body{
 }
 
 #map{
-    margin-top: 300px;
+    margin-top: 15px;
     margin-right: 20px;
     margin-left: 20px;
 
@@ -86,10 +86,15 @@ body{
 }
 
 #opening-times{
-    margin: 25px 20px 25px 20px;
+    margin: 550px 20px 15px 20px;
     padding: 25px 20px 25px 20px;
     width: 100%;
+    color: #fff;
     text-align: center;
+}
+
+#opening-times hr{
+    width: 100%;
 }
 
 #opening-times div{
@@ -121,6 +126,7 @@ body{
     height: 800px;
     background-color: rgb(190, 168, 168, .65);
     margin: 150px 50px 50px 50px;
+    border-radius: 25px;
 }
 
 .membership{
@@ -163,6 +169,36 @@ body{
     margin: 150px 50px 50px 50px;
 }
 
+/*-------------------------Body timetable*/
+
+.timetable{
+    margin: 275px auto 370px auto;
+}
+
+.classes{
+    width: 100%;
+
+    margin: 0 auto 0 auto;
+}
+
+.classes div{
+    height: 300px;
+    width: 13%;
+    color: #fff;
+    background-color: rgb(190, 168, 168, .75);
+    margin: 1px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 1430px){
+    .classes div{
+        width: 100%;
+        clear: both;
+    }
+
+}
 
 /*-------------------------Footer*/
 
