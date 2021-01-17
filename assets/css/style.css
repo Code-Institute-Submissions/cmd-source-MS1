@@ -41,7 +41,7 @@ img{
     }
 }
 
-/*-------------------------Body*/
+/*-------------------------Body homepage*/
 
 body{
     background-image: url(../img/gymbackground.jpg);
@@ -86,15 +86,83 @@ body{
 }
 
 #opening-times{
-    background-color: rgb(190, 168, 168, .75);
     margin: 25px 20px 25px 20px;
     padding: 25px 20px 25px 20px;
+    width: 100%;
+    text-align: center;
 }
 
-#opening-times table th, td{
-    padding-left: 25px;
-    width: 100%;
+#opening-times div{
+    background-color: rgb(190, 168, 168, .75);
+    height: 100px;
+    width: 13%;
+    color: #fff;
+    padding-left: 15px 15px;
+    display: inline-block;
+    font-size: 80%;
 }
+
+@media screen and (max-width: 650px){
+    #opening-times div{
+        width: 100%;
+        clear: both;
+        margin: 2px;
+
+    }
+}
+
+/*-------------------------Body joinpage*/
+
+.membership-container{
+    text-align: center;
+}
+
+.join-bg{
+    height: 800px;
+    background-color: rgb(190, 168, 168, .65);
+    margin: 150px 50px 50px 50px;
+}
+
+.membership{
+ background-color: rgb(190, 168, 168, .75);
+ padding: 100px 25px;
+ height: 400px;
+ width: 560px;
+ margin: 90px 5px 0px 5px;
+ display: inline-block;
+ border-radius: 25px;
+ border: 1px solid black;
+}
+
+@media screen and (max-width:1250px) {
+   .membership{
+     margin: 25px 5px 15px 5px;
+     padding:20px 5px;
+     height: 325px;
+     width: 80%;
+   }
+}
+
+.membership button{
+    padding: 10px;
+    font-size: 110%;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid rgb(31, 30, 30);
+}
+
+.membership button:hover{
+    background-color: rgb(44, 39, 39);
+    color: #fff;
+    transition: .25s;
+}
+
+.join-bg{
+    height: 900px;
+    background-color: rgb(190, 168, 168, .65);
+    margin: 150px 50px 50px 50px;
+}
+
 
 /*-------------------------Footer*/
 
@@ -102,6 +170,7 @@ body{
     width: 100%;
     height: 100px;
     background-color: #212529;
+    position: relative; 
     bottom: 0px;
 }
 
