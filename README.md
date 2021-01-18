@@ -1,10 +1,8 @@
-## Table of Content
+## First Milestone Project - FITFIT
+
+### Table of Contents
 
 1. UX
-- Project goals for both user and owner
-- User Stories
-- Design
-- Wireframes
 
 2. Features
 
