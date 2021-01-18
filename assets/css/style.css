@@ -290,3 +290,16 @@ input:hover {
     float: right;
 }
 
+
+/*-------------------------Gallary*/
+
+#gallary-container{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.gallary-img{
+    margin: 0;
+    width: 100%;
+    height: 350px;
+}
