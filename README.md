@@ -1,4 +1,4 @@
-## First Milestone Project - FITFIT
+# First Milestone Project - FITFIT
 
 ### Table of Contents
 
@@ -16,7 +16,7 @@
 
 
 -------
-
+## UX
 ### Project Goals
 
 The main project goals for this developement are (1) For the sites owners to attract and retain customers to their gym website. (2) For members of the gym and potential members who want to know more about the gym and its proceedures.
