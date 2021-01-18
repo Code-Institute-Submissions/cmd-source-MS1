@@ -58,16 +58,16 @@ As a gym user/potentisl user I want:
 
 When someone thinks of a gym or a place of physical fitness they imagine deep breathing, sweat, movement and physical edurance in a way that makes you feel a sense of accomplishment. With that in mind the following was selected to be part of the design:
 
-#### Images 
+### Images 
 A strong background image that immediately gives the immpressive of an areana for physical work to announce to the user that they are at the right place.
 
 A gallary of images to show that all people of various types and exercises have a place here.
 
-#### Video
+### Video
 
 In or to give the sense of physical movement, almost as if you were already taking part in an exercise a video was selected to autoplay on the homepage.
 
-#### Styling
+### Styling
 
 The theme of colours for this site is dark, grey and white. It was selected as it gives the user an impression that this is a serious place where serious physical accomplishments are made.
 
@@ -76,11 +76,15 @@ The theme of colours for this site is dark, grey and white. It was selected as i
 
 Balsamiq was used to create the following wireframes for 
 
-- The homepage
-- The membership page
-- The joining form
-- The timetable
-- The gallary
+- [The homepage](assets/wireframes/homepagewire.PNG)
+- [The membership page](assets/wireframes/membershipwire.PNG)
+- [The joining form](assets/wireframes/joiningformwire.PNG)
+- [The timetable](assets/wireframes/timetablewire.PNG)
+- [The gallary](assets/wireframes/gallarywire.PNG)
+
+-------
+
+## Features
 
 
 
