@@ -132,9 +132,9 @@ video{
 /*-------------------------Body joinpage*/
 
 .join-bg{
-    height: 800px;
+    height: 900px;
     background-color: rgb(190, 168, 168, .65);
-    margin: 150px 50px 50px 50px;
+    margin: 150px 50px 100px 50px;
     border-radius: 25px;
     text-align: center;
 }
@@ -155,8 +155,8 @@ video{
 @media screen and (max-width:1250px) {
    .membership{
      margin: 25px 5px 15px 5px;
-     padding:20px 5px;
-     height: 325px;
+     padding: 20px 5px;
+     height: 375px;
      width: 80%;
    }
 }
@@ -175,11 +175,6 @@ video{
     transition: .25s;
 }
 
-.join-bg{
-    height: 800px;
-    background-color: rgb(190, 168, 168, .65);
-    margin: 150px 50px 50px 50px;
-}
 
 /*-------------------------Body timetable*/
 
