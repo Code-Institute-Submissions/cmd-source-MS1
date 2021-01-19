@@ -59,7 +59,7 @@ As a gym user/potentisl user I want:
 When someone thinks of a gym or a place of physical fitness they imagine deep breathing, sweat, movement and physical edurance in a way that makes you feel a sense of accomplishment. With that in mind the following was selected to be part of the design:
 
 ### Images 
-A strong background image that immediately gives the immpressive of an areana for physical work to announce to the user that they are at the right place.
+A strong background image was selected that immediately gives the immpressive of an areana for physical work to announce to the user that they are at the right place.
 
 A gallary of images to show that all people of various types and exercises have a place here.
 
@@ -86,6 +86,58 @@ Balsamiq was used to create the following wireframes for
 
 ## Features
 
+Included
+ - A fixed nav-bar at the top of the page allows the user to navigate easily
+ - A footer at the bottom of the page allows the user to contact owners and also provides the links to their social media.
+ - The location on Google Maps was included at the bottom of the homepage to allow the user to easily locate the gym.
+ - A video on the homepage was inserted to give the user a positive emotional response
+ - A signup form has been inserted which is the end goal for new users coming to the sign. The input fields call for the users personal info and payment details.
+ - There are a number of mid sized buttons which call to the user to lead them to the sign-up form.
+ - 
+ 
+Not Included
+ - Autoplay auto was considered for the homepage but after review it was considered to be too annoying and would actually take away from the experience.
 
+-------
 
+## Technologies Used
 
+#### Languages Used
+1. Html5 was used to provide the structure to the website.
+2. CSS3 was u
+
+#### Frameworks Used
+1. Bootstrap 5.0 was used as is allows to add a quicker style to the site with its grid layout
+2. Font Awesome was used for the use of its icons to add a bit for substance.
+
+-------
+
+## Testing
+
+-------
+
+## Deployment
+
+-------
+
+## Credits
+
+#### Content
+
+The nav-bar for this website was taken from [Bootstrap](https://getbootstrap.com/) and slightly altered
+
+#### Media
+
+The FITFIT logo was made using [Looka](https://looka.com/logo-maker/) 
+
+The background image for all pages was taken from [wallpaperaccess](https://wallpaperaccess.com/full/1087589.jpg)
+
+The video on the Homepage was taken from [Pexels](https://www.pexels.com/video/two-men-doing-cardio-exercises-4761431/)
+
+The icons for the page Timetable were taken form [Font-awesome](https://fontawesome.com/)
+
+The images for the Gallary page were taken from [iStockphoto](https://www.istockphoto.com/)
+
+#### Acknowledgements
+
+I did get help and influence from [W3s](https://www.w3schools.com/) for my website.
