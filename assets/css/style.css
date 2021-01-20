@@ -116,7 +116,6 @@ video{
 }
 
 #opening-times{
-    margin: 150px 20px 15px 20px;
     padding: 25px 20px 25px 20px;
     width: 100%;
     color: #fff;
@@ -246,15 +245,15 @@ video{
 
 form h3 {
     margin-top: 25px;
-    margin-left: 5px;
-    padding-left: 50px;
+
+    padding-left: 15px;
     color:#fff;
 }
 
-form h5 {
+form h4 {
     margin-top: 25px;
-    margin-left: 5px;
-    padding-left: 50px;
+
+    padding-left: 15px;
     color:#fff;
 }
 
@@ -265,14 +264,6 @@ form{
     background-color: rgba(75, 68, 68, 0.75);
     border-radius: 25px;
     margin: 100px auto;
-}
-
-.form-id{
-    margin-top: 25px;
-    margin-left: 5px;
-    padding-left: 50px;
-    padding-right: 50px; 
-    display: inline-block;
 }
 
 form hr {
@@ -352,6 +343,9 @@ input[type="submit"]:hover{
 
 .gallary-img{
     margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
     width: 100%;
     height: 350px;
 }
