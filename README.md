@@ -49,7 +49,7 @@ As a gym user/potential user I want:
 
 2. To be able to locate the gym and find its opening times easily. 
 
-3. To know that I am getting value for my money. I also want to have the option to make a serious commitment in signing up for a long time or to have the option to sign uo for shorter durations. This gives me flexibility.
+3. To know that I am getting value for my money. I also want to have the option to make a serious commitment in signing up for a long time or to have the option to sign up for shorter durations. This gives me flexibility.
 
 4. Ease in signing up once I have decided that I like the look and feel of this gym. I should not have to struggle to find the sign up form.
 
@@ -65,7 +65,7 @@ A gallary of images to show that all people of various types and exercises have 
 
 ### Video
 
-To give the sense that the user has already begun their training or workout with FITFIT, a short video with two men in a session of training was selected to autoplay on the homepage once the user first lands on the site.
+To give the sense that the user has already begun their workout with FITFIT, a short video with two men in a session of training was selected to autoplay on the homepage once the user first lands on the site.
 
 ### Styling
 
@@ -87,7 +87,7 @@ Balsamiq was used to create the following wireframes for
 ## Features
 
 Included
- - A fixed nav-bar at the top of the page allows the user to navigate easily
+ - A fixed nav-bar at the top of the page allows the user to navigate easily no matter what part of a page they may be on.
  - A footer at the bottom of the page allows the user to contact owners and also provides the links to their social media.
  - The location on Google Maps was included at the bottom of the homepage to allow the user to easily locate the FITFIT gym.
  - A video on the homepage was inserted to give the user a positive emotional response.
@@ -97,7 +97,7 @@ Included
  
 Not Included
  - Autoplay audio/music was considered for the homepage, but after review it was considered to be too annoying and would actually take away from the experience when the user first lands.
- - For future developement it might be add a more personal experience to include a page on the site for the purpose of introducing the trainers and FITFIT team.
+ - For future developement it might add a more personal experience to include a page on the site for the purpose of introducing the trainers and the FITFIT team.
 -------
 
 ## Technologies Used
@@ -136,11 +136,11 @@ Not Included
  3. Both Join Now buttons display and transition in their annimation as intended when the user hovers over them.
  3. My Google Maps iframe would not pass the html validator in its current form below. I solved it by reading and modifying the code on the website [OSTraining](https://www.ostraining.com/blog/coding/responsive-google-maps/)
 
-<div id="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.5853366635865!2d-6.221298283977396!3d53.386468479406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670fcc9110ce93%3A0xf7cafc94ce2953a4!2s106%20Ardmore%20Dr%2C%20Beaumont%2C%20Dublin%205%2C%20D05%20Y0R2!5e0!3m2!1sen!2sie!4v1610820469879!5m2!1sen!2sie"
-                width="800" height="220" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
+div id="map">
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.5853366635865!2d-               6.221298283977396!3d53.386468479406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670fcc9110ce93%3A0xf7cafc94ce2953a4!2s106%20Ardmore%20Dr%2C%20Beaumont%2C%20Dublin%205%  2C%20D05%20Y0R2!5e0!3m2!1sen!2sie!4v1610820469879!5m2!1sen!2sie"
+width="800" height="220" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+tabindex="0"></iframe>
 </div>
 
 
