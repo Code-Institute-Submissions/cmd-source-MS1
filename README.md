@@ -134,6 +134,16 @@ Not Included
  1. Click on the Join Now button on the Hompage.
  2. The options for either One Years Membership or Monthly Recurring Membership present well side by side on the desktop and tablet.
  3. Both Join Now buttons display and transition in their annimation as intended when the user hovers over them.
+ 3. My Google Maps iframe would not pass the html validator in its current form below. I solved it by reading and modifying the code on the website [OSTraining](https://www.ostraining.com/blog/coding/responsive-google-maps/)
+
+<div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.5853366635865!2d-6.221298283977396!3d53.386468479406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670fcc9110ce93%3A0xf7cafc94ce2953a4!2s106%20Ardmore%20Dr%2C%20Beaumont%2C%20Dublin%205%2C%20D05%20Y0R2!5e0!3m2!1sen!2sie!4v1610820469879!5m2!1sen!2sie"
+                width="800" height="220" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+</div>
+
+
 
  ##### For Mobile
  1. The options for either One Years Membership or Monthly Recurring Membership stack on top of each other in the mobile version. 
@@ -200,4 +210,4 @@ The images for the Gallary page were taken from [iStockphoto](https://www.istock
 
 #### Acknowledgements
 
-I did get help and influence from [W3s](https://www.w3schools.com/) for my website and from the Irish low cost gym [Flyfit](https://www.flyefit.ie/).
+I did get help and influence from [W3s](https://www.w3schools.com/), [Stackoverflow](https://stackoverflow.com/questions/15219506/google-map-validation) and from the Irish low cost gym [Flyfit](https://www.flyefit.ie/).

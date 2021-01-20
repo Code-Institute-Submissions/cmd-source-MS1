@@ -4,6 +4,10 @@
     border:0;
 }
 
+body{
+    text-decoration: none;
+}
+
 /*-------------------------Header/NAV */
 
 img{
@@ -64,7 +68,15 @@ body{
     background-color: rgba(75, 68, 68, 0.75);
 }
 
+.callout a {
+    text-decoration: none;
+}
+
 #join-button{
+    margin: 0px auto;
+    background-color: #fff;
+    color: black;
+    width: 150px;
     padding: 12px;
     font-size: 120%;
     font-weight: 600;
@@ -94,8 +106,13 @@ video{
     margin-top: 15px;
     margin-right: 20px;
     margin-left: 20px;
+}
 
-    
+#map iframe{
+    left:0;
+    top:0;
+    width:100%;
+    position: relative;;
 }
 
 #opening-times{
@@ -161,7 +178,15 @@ video{
    }
 }
 
+.membership a {
+    text-decoration: none;
+}
+
 .membership button{
+    margin: 0px auto;
+    background-color: #fff;
+    color: black;
+    width: 150px;
     padding: 12px;
     font-size: 120%;
     font-weight: 600;
