@@ -182,7 +182,7 @@ video{
     text-decoration: none;
 }
 
-.membership button{
+.membership .join-button2{
     margin: 0px auto;
     background-color: #fff;
     color: black;
@@ -194,7 +194,7 @@ video{
     border: 1px solid rgb(31, 30, 30);
 }
 
-.membership button:hover{
+.membership .join-button2:hover{
     background-color: rgb(44, 39, 39);
     color: #fff;
     transition: .25s;
