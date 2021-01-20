@@ -93,7 +93,7 @@ Included
  - A video on the homepage was inserted to give the user a positive emotional response.
  - A signup form has been inserted which is the end goal for new users coming to the FITFIT site. The input fields call for the users personal info and payment details.
  - There are a number of mid sized buttons which first call to the user leading them from the homepage, through the choice between the two membership options and finally to the signup page.
- - 
+ 
  
 Not Included
  - Autoplay audio/music was considered for the homepage, but after review it was considered to be too annoying and would actually take away from the experience when the user first lands.
@@ -112,29 +112,46 @@ Not Included
 
 -------
 
-## Testing
+## Testing The FITFIT Website
 
 ### Homepage
 
 ##### For Desktop / Tablet
- 1. The homepage displays as intended when the user lands.
- 2. A clear call to action incites the user to join the gym and the Join Button transitions in its annimation when the user hovers
- 3. The video begins to autoplay, however I've noticed that sometimes it takes a few moments to begin playing. The video is hidden as intended on screen sizes smaller then a desktop.
+ 1. The homepage displays as intended when the user first lands.
+ 2. The nav-bar operates as intended with each element highlighted when the user hovers over them.
+ 3. A clear call to action incites the user to join the gym and the Join Now button transitions in its annimation when the user hovers.
+ 4. The video begins to autoplay, however I've noticed that sometimes it takes a few moments to begin playing. The video is hidden as intended on screen sizes smaller then a desktop.
 
 ##### For Mobile
- 1. The homepage appears to work as intended except for the Opening Hours being slightly pushed to the right side of the screen, I havent yet solved this.
+ 1. The homepage displays when the user first lands.
+ 2. The nav-bar positions under the logo on the mobile version as intended, with each element highlighted when the user hovers over each of the nav elements.
+ 3. The homepage appears to almost as intended except for the Opening Hours section being slightly pushed to the right side of the screen, I havent yet solved this.*
 
 
 ### Join page
 
 ##### For Desktop / Tablet
- 1. The options for either One Years Membership or Monthly Recurring Membership present well side by side on the desktop and tablet. This allows for easy comparison of price.
- 2. Both Join Now buttons display and transition in their annimation as intended when the user hovers over them.
+ 1. Click on the Join Now button on the Hompage.
+ 2. The options for either One Years Membership or Monthly Recurring Membership present well side by side on the desktop and tablet.
+ 3. Both Join Now buttons display and transition in their annimation as intended when the user hovers over them.
 
  ##### For Mobile
- 1. The options for either One Years Membership or Monthly Recurring Membership stack on top of each other in the mobile version. The One Years Membership stacks on top and is presented as the first option as this is what we would prefer the user to chose.
+ 1. The options for either One Years Membership or Monthly Recurring Membership stack on top of each other in the mobile version. 
  2. Both options display as originally intended from the wireframes.
+ 3. Both Join Now buttons display and transition in their annimation as intended when the user hovers over them.
 
+### Sign up form
+##### For Desktop / Tablet
+ 1. Click the Join Now button from the Join page.
+ 2. The sign up form is presented in two columns.
+ 3. Input fields have place holders for the info they are intended for, fields are required before the submit button can be selected.
+ 4. The submit button does not yet action successfully, I am currently investigating this.*
+
+##### For Mobile
+ 1. Click the Join Now button from the Join page.
+ 2. The sign up form is presented in one column.
+ 3. Input fields have place holders for the info they are intended for, fields are required before the submit button can be selected.
+ 4. The submit button does not yet action successfully and falls outside of the forms border, I am currently investigating this.*
 
  ### Timetable page
  ##### For Desktop / Tablet
@@ -183,4 +200,4 @@ The images for the Gallary page were taken from [iStockphoto](https://www.istock
 
 #### Acknowledgements
 
-I did get help and influence from [W3s](https://www.w3schools.com/) for my website.
+I did get help and influence from [W3s](https://www.w3schools.com/) for my website and from the Irish low cost gym [Flyfit](https://www.flyefit.ie/).
