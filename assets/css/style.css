@@ -283,6 +283,17 @@ input{
     border: 1px solid rgb(12, 9, 9)
 }
 
+.personalinfo{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.ccvinfo{
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+
+
 input:hover {
     box-shadow: 0 0 4px rgb(49, 46, 46);
     border: 1px solid rgb(12, 9, 9)

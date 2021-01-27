@@ -34,60 +34,71 @@
             <div class="container">
                 <div class="row">
                     <form method="get" post="https://formdump.codeinstitute.net/">
-                        <h3>Welcome to your new gym!</h3>
-                        <div class="col-sm-6">
-                            <input type="text" name="fname" placeholder="First Name" required>
-                            <input type="text" name="lname" placeholder="Last Name" required>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h3 class="personalinfo">Welcome to your new gym!</h3>
+                            </div>
                         </div>
+                        <div class="personalinfo">
+                            <div class="col-sm-6">
+                                <input type="text" name="fname" placeholder="First Name" required>
+                                <input type="text" name="lname" placeholder="Last Name" required>
+                            </div>
 
-                        <div>
-                            <input type="email" name="email" placeholder="Email" required>
-                            <input type="number" name="number" placeholder="Mobile" required>
+                            <div class="col-sm-6">
+                                <input type="email" name="email" placeholder="Email" required>
+                                <input type="number" name="number" placeholder="Mobile" required>
+                            </div>
+
+
+                            <div class="col-sm-6">
+                                <input type="password" name="password" placeholder="Password" required>
+                                <input type="password" name="Confirm-Password" placeholder="Confirm Password" required>
+                            </div>
                         </div>
-
-
-                        <div class="col-sm-6">
-                            <input type="password" name="password" placeholder="Password" required>
-                            <input type="password" name="Confirm-Password" placeholder="Confirm Password" required>
-                        </div>
-
                         <hr>
 
-                        <h4>Billing Information</h4>
-                        <div class="col-sm-6">
-                            <input type="text" name="fname" placeholder="First Name" required>
-                            <input type="text" name="lname" placeholder="Last Name" required>
-
-                            <br>
-                            <br>
-
-                            <input type="radio" name="payment"><label id="radio1">Credit Card</label>
-
-                            <br>
-
-                            <input type="radio" name="payment"><label id="radio2">Debit Card</label>
-                        </div>
-
                         <div class="row">
                             <div class="col-sm-6">
-                                <input type="text" name="cardnumber" placeholder="Card Number" required>
+                                <h4 class="personalinfo">Billing Information</h4>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <input type="text" name="expire" placeholder="Expiration Date" required>
+                            <div class="personalinfo">
+                                <div class="col-sm-6">
+                                    <input type="text" name="fname" placeholder="First Name" required>
+                                    <input type="text" name="lname" placeholder="Last Name" required>
+                                </div>
+
+                                <br>
+                                <br>
+
+                                <div class="col-sm-3">
+                                    <input type="radio" name="payment"><label id="radio1">Credit Card</label>
+
+                                    <br>
+
+                                    <input type="radio" name="payment"><label id="radio2">Debit Card</label>
+                                </div>
                             </div>
-                        
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <input type="text" name="ccv" placeholder="CCV" required>
+
+
+
+                            <div class="personalinfo">
+                                <div class="col-sm-6">
+                                    <input type="text" name="cardnumber" placeholder="Card Number" required>
+                                    <input type="text" name="expire" placeholder="Expiration Date" required>
+                                </div>
                             </div>
-                        </div>
-                        
+
+                            <div class="ccvinfo">
+                                <div class="col-sm-3">
+                                    <input type="text" name="ccv" placeholder="CCV" required>
+                                </div>
+                            </div>
+                            
                         </div>
 
                         <div id="submit">
-                        <input type="submit">
+                            <input type="submit">
                         </div>
                     </form>
                 </div>
@@ -103,7 +114,8 @@
             <div class="social">
                 <ul>
                     <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    </li>
                     <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
