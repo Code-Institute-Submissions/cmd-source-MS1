@@ -289,7 +289,11 @@ input{
 }
 .ccvinfo{
     margin-bottom: 25px;
-    text-align: right;
+    text-align: left;
+}
+
+.ccv{
+    text-align: center;
 }
 
 
