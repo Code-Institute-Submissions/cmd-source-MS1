@@ -125,8 +125,10 @@ video{
 #opening-times h2{
     background-color: rgba(75, 68, 68, 0.75);
     border: 1px solid black;
-    width: 93%;
-    margin: 0px auto;
+    width: 95%;
+    text-align: center;
+    margin: 5px auto;
+    
 }
 
 #opening-times hr{
