@@ -228,7 +228,18 @@ The video on the Homepage was taken from [Pexels](https://www.pexels.com/video/t
 
 The icons for the page Timetable were taken form [Font-awesome](https://fontawesome.com/)
 
-The images for the Gallary page were taken from [iStockphoto](https://www.istockphoto.com/)
+The images for the Gallary page were taken from the below links:
+
+[photo1](https://unsplash.com/photos/l9Z19qt576c)
+[photo2](https://unsplash.com/photos/U5kQvbQWoG0)
+[photo3](https://unsplash.com/photos/XqAhTH3EBnw)
+[photo4](https://pixnio.com/sport/training-workout-fitness-gym-sport-motion)
+[photo5](https://unsplash.com/photos/dr0TJa-zYQo)
+[photo6](https://upload.wikimedia.org/wikipedia/commons/b/b4/Cycle_Class_at_a_Gym.JPG)
+[photo7](https://pxhere.com/en/photo/903193)
+[photo8](https://pxhere.com/en/photo/1187251)
+[photo9](https://www.muscleandfitness.com/workouts/workout-tips/7-advantages-dumbbell-training/)
+[photo10](https://pixabay.com/photos/fitness-strengthening-muscles-gym-3502830/)
 
 #### Acknowledgements
 
