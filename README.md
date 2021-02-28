@@ -190,7 +190,7 @@ Not Included
 
 ##### Moblie
  1. Click on the Gallary in the nav-bar
- 2. The images render well on the mobile in one column. They did initially lean to the right but this has been fixed.
+ 2. The images render well on the mobile in one column. They did initially lean to the right but this has been fixed through a padding/margin CSS correction.
  3. Again, the images viewed provide an impression of work and enjoyment.
 
 -------
