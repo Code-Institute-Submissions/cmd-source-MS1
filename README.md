@@ -38,6 +38,8 @@ As an owner of this gym website I want:
 
 1. Ease of use for a potential gym member in being able to sign up from the moment they land on the site to the stage of signing up. Which means the website must flow from the landing page to the sign up page with minimum clicks needed.
 
+![Progression](assets/img/progression.JPG)
+
 2. For anyone who lands on the page to get the impression that this is a high quality gym and one that they would want to be part of. To make it as appealing as possible through attractive visuals.
 
 3. To retain members for longer periods of time. This can be accomplished at the beginning through informative and obvious price value. It can then be maintained through clear opening times, contact details and obvious class times.
