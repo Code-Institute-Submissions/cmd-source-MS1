@@ -76,7 +76,7 @@ A gallary of images to show that all people of various types and exercises have 
 
 ### Video
 
-To give the sense that the user has already begun their workout with FITFIT, a short video with two men in a session of training was selected for the homepage once the user first lands on the site in order to give a positive emotion reaction.
+To give the sense that the user has already begun their workout with FITFIT, a short video with two men in a session of training was selected for the homepage. In order to give a positive emotion reaction.
 
 ### Styling
 
