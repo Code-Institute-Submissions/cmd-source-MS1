@@ -65,7 +65,7 @@ A gallary of images to show that all people of various types and exercises have 
 
 ### Video
 
-To give the sense that the user has already begun their workout with FITFIT, a short video with two men in a session of training was selected to autoplay on the homepage once the user first lands on the site.
+To give the sense that the user has already begun their workout with FITFIT, a short video with two men in a session of training was selected for the homepage once the user first lands on the site in order to give a positive emotion reaction.
 
 ### Styling
 
@@ -88,11 +88,12 @@ Balsamiq was used to create the following wireframes for
 
 Included
  - A fixed nav-bar at the top of the page allows the user to navigate easily no matter what part of a page they may be on.
- - A footer at the bottom of the page allows the user to contact owners and also provides the links to their social media.
+ - A footer at the bottom of the page allows the user to contact the site owners and also provides the links to their social media.
  - The location on Google Maps was included at the bottom of the homepage to allow the user to easily locate the FITFIT gym.
  - A video on the homepage was inserted to give the user a positive emotional response.
  - A signup form has been inserted which is the end goal for new users coming to the FITFIT site. The input fields call for the users personal info and payment details.
  - There are a number of mid sized buttons which first call to the user leading them from the homepage, through the choice between the two membership options and finally to the signup page.
+ - A gallary page was inserted to highlight the accomplishments that others have made to entice new users.
  
  
 Not Included
@@ -107,8 +108,8 @@ Not Included
 - CSS3 was used to provide the style to the website.
 
 #### Frameworks Used
-- Bootstrap 5.0 was used as is allows to add a pre made style structure to the site.
-- Font Awesome was used for the use of its icons to add a bit more substance to the feel of the site.
+- Bootstrap 5.0 was used as it allows the use of pre made style structures to the site.
+- Font Awesome was used on the timetable page for the use of its icons to add a bit more substance and feel to the page.
 
 -------
 
@@ -117,22 +118,23 @@ Not Included
 ### Homepage
 
 ##### For Desktop / Tablet
- 1. The homepage displays as intended when the user first lands.
+ 1. The homepage displays as intended when the user first lands with the call to action in the form of Join Now button working correctly. The Join Now button transitions to the membership options.
  2. The nav-bar operates as intended with each element highlighted when the user hovers over them.
  3. A clear call to action incites the user to join the gym and the Join Now button transitions in its annimation when the user hovers.
- 4. The video begins to autoplay, however I've noticed that sometimes it takes a few moments to begin playing. The video is hidden as intended on screen sizes smaller then a desktop.
+ 4. The video displays with the control panal but it can take a few moments to play when the play button is pressed. 
+ 5. Google maps displays well under the Opening Hours section and is responsive.
 
 ##### For Mobile
- 1. The homepage displays when the user first lands.
+ 1. The homepage displays when the user first lands with the call to action also working correctly in transitioning to the membership page.
  2. The nav-bar positions under the logo on the mobile version as intended, with each element highlighted when the user hovers over each of the nav elements.
- 3. The homepage appears to almost as intended except for the Opening Hours section being slightly pushed to the right side of the screen, I havent yet solved this.*
+ 3. The homepage appears as intended with the video being hidden and the Opening Hours section collapsing into vertical allignment.
 
 
 ### Join page
 
 ##### For Desktop / Tablet
  1. Click on the Join Now button on the Hompage.
- 2. The options for either One Years Membership or Monthly Recurring Membership present well side by side on the desktop and tablet.
+ 2. The options for either One Years Membership or Monthly Recurring Membership present well side by side on the desktop. For the tablet them stack on top of each other.
  3. Both Join Now buttons display and transition in their annimation as intended when the user hovers over them.
  3. My Google Maps iframe would not pass the html validator in its current form below. I solved it by reading and modifying the code on the website [OSTraining](https://www.ostraining.com/blog/coding/responsive-google-maps/)
 
@@ -147,42 +149,48 @@ tabindex="0"></iframe>
 
  ##### For Mobile
  1. The options for either One Years Membership or Monthly Recurring Membership stack on top of each other in the mobile version. 
- 2. Both options display as originally intended from the wireframes.
- 3. Both Join Now buttons display and transition in their annimation as intended when the user hovers over them.
+ 2. The membership options display well to the user in the transition from destop to tablet to mobile.
+ 3. Both options display as originally intended from the wireframes.
+ 4. Both Join Now buttons display and transition in their annimation as intended when the user hovers over them.
 
 ### Sign up form
 ##### For Desktop / Tablet
  1. Click the Join Now button from the Join page.
- 2. The sign up form is presented in two columns.
- 3. Input fields have place holders for the info they are intended for, fields are required before the submit button can be selected.
- 4. The submit button does not yet action successfully, I am currently investigating this.*
+ 2. The user is then transitioned to the sign up form for the users details.
+ 3. This appears in two columns on the desktop and one on a tablet. 
+ 4. All the fields have the correct inputs, meaning the name fields except text, the email field needs an @ symbol and the mobile field needs digits.
+ 5. Input fields have place holders for the info they are intended for, fields are required before the submit button can be selected.
+ 6. The submit button does action a submit but I do not yet get a successful submit page. *Still investigating this.
 
 ##### For Mobile
  1. Click the Join Now button from the Join page.
- 2. The sign up form is presented in one column.
- 3. Input fields have place holders for the info they are intended for, fields are required before the submit button can be selected.
- 4. The submit button does not yet action successfully and falls outside of the forms border, I am currently investigating this.*
+ 2. The sign up form is presented in one column and visually flows well down to the submit button.
+ 3. All the fields have the correct inputs and are required just like the desktop.
+ 4. The submit button does action a submit but I do not yet get a successful submit page. *Still investigating this.
 
  ### Timetable page
  ##### For Desktop / Tablet
  1. Click on the Timetable in the nav-bar
  2. The Timetable displays as intended on desktop with each day of the week bein side by side in parallel.
  3. On a tablet the days of the week stack on top of each other as intended.
+ 4. The classes available to the user are clear and obvious with the help of fontawesome's visual icons.
 
  ##### For Mobile
  1. Click on the Timetable in the nav-bar
  2. Like the tablet the days of the week stack on top of each other as intended.
+ 3. Again, the classes available to the user are clear and obvious with the help of fontawesome's visual icons.
 
 ### Gallary page
 ##### For Desktop / Tablet
  1. Click on the Gallary in the nav-bar.
  2. The images render well on the desktop in two columns.
- 3. The images are not optimal on the table. Currnetly looking at how I might optimize them.
+ 3. The two columns switch to one colum when viewing on a tablet in order to avoid image stretching.
+ 4. The images viewed provide an impression of work and enjoyment.
 
-##### For Desktop / Tablet
- 1. Click on the Timetable in the nav-bar
- 2. The images render very well on the mobile in one column.
- 3. The images do slightly lean to the right, I am currently investigating this.
+##### Moblie
+ 1. Click on the Gallary in the nav-bar
+ 2. The images render well on the mobile in one column. They did initially lean to the right but this has been fixed.
+ 3. Again, the images viewed provide an impression of work and enjoyment.
 
 -------
 
