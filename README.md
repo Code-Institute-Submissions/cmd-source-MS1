@@ -42,6 +42,7 @@ As an owner of this gym website I want:
 
 3. To retain members for longer periods of time. This can be accomplished at the beginning through informative and obvious price value. It can then be maintained through clear opening times, contact details and obvious class times.
 
+![Classes](assets/img/timetable.JPG)
 
 As a gym user/potential user I want:
 
@@ -49,7 +50,11 @@ As a gym user/potential user I want:
 
 2. To be able to locate the gym and find its opening times easily. 
 
+![Homepage](assets/img/openinglocation.JPG)
+
 3. To know that I am getting value for my money. I also want to have the option to make a serious commitment in signing up for a long time or to have the option to sign up for shorter durations. This gives me flexibility.
+
+![Membership](assets/img/membership.JPG)
 
 4. Ease in signing up once I have decided that I like the look and feel of this gym. I should not have to struggle to find the sign up form.
 
@@ -61,7 +66,11 @@ When someone thinks of a gym or a place of physical fitness they imagine deep br
 ### Images 
 A strong background image was selected that immediately gives the immpressive of an areana for physical work to announce to the user that they are at the right place.
 
+![Homepage](assets/img/homepage.JPG)
+
 A gallary of images to show that all people of various types and exercises have a place here in FITFIT.
+
+![Gallary](assets/img/gallary.JPG)
 
 ### Video
 
