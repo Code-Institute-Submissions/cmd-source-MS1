@@ -196,6 +196,20 @@ tabindex="0"></iframe>
 
 ## Deployment
 
+#### How to deploy this project
+
+1. Create a github account
+2. Install the Gitpod extention
+3. Navigate to the repository where the project is stored
+4. Click on the green Gitpod button to create a workplace where the project can be worked on.
+
+#### How to clone and deploy this project
+
+1. Navigate to the repository where the project is stored.
+2. Click on the Code button which will give the option to download the contect and the url.
+3. Copy the url
+4. In your chosen IDE in the terminal type "git clone (followed by the copied url).
+
 -------
 
 ## Credits
