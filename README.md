@@ -1,3 +1,5 @@
+![Progression](assets/img/responsivedesign.JPG)
+
 # First Milestone Project - FITFIT
 
 ### Table of Contents
