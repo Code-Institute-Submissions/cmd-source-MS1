@@ -177,7 +177,7 @@ Not Included
  4. The submit button does action a submit but I do not yet get a successful submit page. *Still investigating this.
  5. As on the desktop version the The navbar had a small bug. The result of this bug was that a white line would cut through the navbar. It was solved by giving the navbar a Z index of 1.
 
-![navbarbug2](assets/img/navbarbug.JPG)
+![navbarbug2](assets/img/navbarbug2.JPG)
 
  ### Timetable page
  ##### For Desktop / Tablet
@@ -202,6 +202,30 @@ Not Included
  1. Click on the Gallary in the nav-bar
  2. The images render well on the mobile in one column. They did initially lean to the right but this has been fixed through a padding/margin CSS correction.
  3. Again, the images viewed provide an impression of work and enjoyment.
+
+
+### Browsers
+
+Website was tested on the below browsers
+
+- Microsofe Edge
+- Google Chrome
+- Mozzila
+
+### Devices
+
+Website was tested on:
+ 
+ - 24 inch desktop dell screen
+ - Lenovo Laptop 
+ - Galaxy S5
+ - Pixel 2
+ - iPhone 5
+ - iPhone 6/7/8/10
+ - iPad
+ - Galaxy fold
+
+The website rendered well across most devices the only issue I had was on the iPhone 5 and Galaxy fold. On the iPhone 5 and Galaxy fold each element on the navbar did not present horizontally as it did on every other mobile device. It is an issue that I will have to improve on in the future. 
 
 -------
 
