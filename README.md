@@ -223,9 +223,10 @@ Website was tested on:
  - iPhone 5
  - iPhone 6/7/8/10
  - iPad
+ - Surface Duo
  - Galaxy fold
 
-The website rendered well across most devices the only issue I had was on the iPhone 5 and Galaxy fold. On the iPhone 5 and Galaxy fold each element on the navbar did not present horizontally as it did on every other mobile device. It is an issue that I will have to improve on in the future. 
+The website rendered well across most devices the apart from the iPhone 5 and Galaxy fold. On the iPhone 5 and Galaxy fold each element on the navbar did not present horizontally as it did on every other mobile device. On the Galaxy fold I had an overflow problem on the Join and Signup pages. It is an issue that I will have to improve upon in the future for these 2 devices. 
 
 -------
 
