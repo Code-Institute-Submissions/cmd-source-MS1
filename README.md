@@ -166,7 +166,7 @@ Not Included
  4. All the fields have the correct inputs, meaning the name fields except text, the email field needs an @ symbol and the mobile field needs digits.
  5. Input fields have place holders for the info they are intended for, fields are required before the submit button can be selected.
  6. The submit button does action a submit but I do not yet get a successful submit page. *Still investigating this.
- 7. The navbar had a small bug. The result of this bug was that a white line would cut through the navbar. It was solved by giving the navbar a Z insex of 1.
+ 7. The navbar had a small bug. The result of this bug was that a white line would cut through the navbar. It was solved by giving the navbar a Z index of 1.
 
  ![navbarbug](assets/img/navbarbug.JPG)
 
@@ -175,7 +175,7 @@ Not Included
  2. The sign up form is presented in one column and visually flows well down to the submit button.
  3. All the fields have the correct inputs and are required just like the desktop.
  4. The submit button does action a submit but I do not yet get a successful submit page. *Still investigating this.
- 5. As on the desktop version the The navbar had a small bug. The result of this bug was that a white line would cut through the navbar. It was solved by giving the navbar a Z insex of 1.
+ 5. As on the desktop version the The navbar had a small bug. The result of this bug was that a white line would cut through the navbar. It was solved by giving the navbar a Z index of 1.
 
 ![navbarbug2](assets/img/navbarbug.JPG)
 
