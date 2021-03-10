@@ -228,6 +228,11 @@ Website was tested on:
 
 The website rendered well across most devices the apart from the iPhone 5 and Galaxy fold. On the iPhone 5 and Galaxy fold each element on the navbar did not present horizontally as it did on every other mobile device. On the Galaxy fold I had an overflow problem on the Join and Signup pages. It is an issue that I will have to improve upon in the future for these 2 devices. 
 
+###Validators
+The website passed both the HTML and CSS validators as shown below
+![HTML](assets/img/HTMLval.JPG)
+![CSS](assets/img/CSSval.JPG)
+
 -------
 
 ## Deployment
