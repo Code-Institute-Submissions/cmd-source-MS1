@@ -103,17 +103,19 @@ video{
     }
 }
 
+
 #map{
     margin-top: 15px;
     margin-right: 20px;
     margin-left: 20px;
 }
 
+/*Map was modified slightly with the help of OSTraing, link in the readme*/
 #map iframe{
     left:0;
     top:0;
     width:100%;
-    position: relative;;
+    position: relative;
 }
 
 #opening-times{
