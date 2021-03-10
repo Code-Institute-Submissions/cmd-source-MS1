@@ -182,7 +182,7 @@ Not Included
  ### Timetable page
  ##### For Desktop / Tablet
  1. Click on the Timetable in the nav-bar
- 2. The Timetable displays as intended on desktop with each day of the week bein side by side in parallel.
+ 2. The Timetable displays as intended on desktop with each day of the week showing side by side in parallel.
  3. On a tablet the days of the week stack on top of each other as intended.
  4. The classes available to the user are clear and obvious with the help of fontawesome's visual icons.
 
@@ -208,7 +208,7 @@ Not Included
 
 Website was tested on the below browsers
 
-- Microsofe Edge
+- Microsoft Edge
 - Google Chrome
 - Mozzila
 
